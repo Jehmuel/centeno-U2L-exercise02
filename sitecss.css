@@ -1,0 +1,160 @@
+*{
+    margin:0;
+    padding:0;
+    background-color:rgb(41,52,61); 
+}
+
+.main{
+    width: 100%;
+    background-position:cover;
+    background-size: cover;
+    height:100vh;            /*for fullscreen*/   
+}
+
+.navbar{
+    width: 86%;
+    display: flex;
+    margin: auto;
+    padding: 15px 0;
+    align-items:center;
+    justify-content: space-between;
+}
+
+.navbar .logo{
+    width: 160px;
+    height: 160px;
+    cursor: pointer;
+    margin-top: 3%;
+    margin-left:-2%;
+}
+
+.navbar ul{
+    margin-top:-4%;
+}
+
+.navbar ul li{
+    list-style: none;
+    display:inline-block;
+    padding: 10px 16px;
+    font-weight: bold;
+    color:rgb(0,255,193);
+    margin-top:-3%;
+    transition: .4 ease;
+}
+
+.navbar ul li:hover{
+    color:firebrick
+}
+
+
+.bio{
+    margin-left: 7%;
+    margin-top: 6%;
+}
+
+.bio h1{
+    font-size: 40px;
+    color:rgb(52,149,82);
+}
+
+.bio h3{
+    font-size: 18px;
+    color:lightgrey
+}
+
+.bio span{
+    color:rgb(192,255,234);
+}
+
+
+.image {
+    width:25%;
+    height:60%;
+    position:absolute;
+    right: 100px;
+    bottom: 100px;
+
+}
+
+.skills{
+    margin-left: 7%;
+    margin-top: 6%;
+}
+
+.skills h1{
+    font-size: 40px;
+    color:rgb(52,149,82);
+}
+
+.skills h3{
+    font-size: 18px;
+    color:lightgrey
+}
+
+.skills ul{
+    margin-left: 3%;
+    font-size: 25px;
+    color: rgb(0,255,193);
+}
+
+.skills span{
+    color:rgb(192,255,234);
+}
+
+.projs {
+    margin-left: 7%;
+    margin-top: 6%;
+}
+
+.projs h1{
+    font-size: 40px;
+    color:rgb(52,149,82);
+    text-align: center;
+}
+
+.projs h3{
+    font-size: 17px;
+    color:lightgrey
+    
+}
+
+.projs ul li{
+    font-size: 25px;
+    color: rgb(0,255,193);
+}
+
+.projs span{
+    color:rgb(192,255,234);
+}
+
+.hack{
+    float: right;
+    width: 350px;
+    height: 350px;
+    padding-right: 15%;
+    padding-top: 5.5%;
+}
+
+.footer{
+    float: left;
+    margin-left: 7%;
+    margin-bottom: 6%;
+    margin-right:4%;
+    width: 150px;
+    height: 150px;
+
+}
+
+.bottom span{
+    color:rgb(192,255,234);
+}
+
+.bottom ul{
+    padding-top: 3%;
+    padding-left: 3%;
+    font-size: 17px;
+}
+
+
+
+
